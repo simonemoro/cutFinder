@@ -6,6 +6,7 @@ This program is used to quantify single-strand breaks detected by GLOE-Seq. (DOI
 
 cutFinder.py [-h] [-S SAMFILE] [-a ALIGNMENT] [-r REFERENCE] [-n NAME]
 
+
 The following arguments must be provided for the script to function:
 - **SAM file** for a specific strand alignment (either top or bottom strand) 
 - **Strand alignment** (specify 'BS' (bottom strand) or 'TS' (top strand))
