@@ -1,6 +1,7 @@
 # cutFinder
 
-This program is used to quantify single-strand breaks detected by GLOE-Seq. (DOI: 10.1016/j.molcel.2020.03.027) 
+This program is used to quantify single-strand breaks detected by GLOE-Seq. 
+(DOI: 10.1016/j.molcel.2020.03.027) 
 
 ## USAGE
 
