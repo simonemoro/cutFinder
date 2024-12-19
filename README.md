@@ -10,7 +10,7 @@ cutFinder.py [-h] [-S SAMFILE] [-a ALIGNMENT] [-r REFERENCE] [-n NAME]
 The following arguments must be provided for the script to function:
 - **SAM file** for a specific strand alignment (either top or bottom strand) 
 - **Strand alignment** (specify 'BS' (bottom strand) or 'TS' (top strand))
-- **Reference** sequence of the opposite strand
+- **Reference** sequence of the opposite strand. Reference must be provided in the 5' --> 3' orientation
 
 
 ## REQUIREMENTS
