@@ -4,7 +4,7 @@ This program is used to quantify single-strand breaks detected by GLOE-Seq (DOI:
 
 ## USAGE
 ```bash
-cutFinder.py [-h] [-S SAMFILE] [-a ALIGNMENT] [-r REFERENCE] [-n NAME]
+cutFinder.py [-h] [-S samFile] [-a alignment] [-r reference] [-n name]
 
 options:
   -h, --help            show this help message and exit
