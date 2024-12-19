@@ -16,8 +16,8 @@ options:
 
 ```
 
-| Option         | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
+| Option             | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
 | `-h`, `--help`    | Show this help message and exit.                                            |
 | `-S`, `--samFile`    | SAM file name and location.                                               |
 | `-a`, `--alignment`    | Strand alignment. Specify `'BS'` (bottom strand) or `'TS'` (top strand). |
