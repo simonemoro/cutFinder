@@ -10,7 +10,8 @@ options:
   -h, --help            show this help message and exit
   -S, --samFile         SAM file name and location
   -a, --alignment       Strand alignment. Specify 'BS' (bottom strand) or 'TS' (top strand)
-  -r, --reference       Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand
+  -r, --reference       Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand.
+                        Reference must be provided in the 5' --> 3' orientation
   -n, --name            CSV file output name (default: Sample_1)
 
 ```
@@ -18,7 +19,7 @@ options:
 The following arguments must be provided for the script to function:
 - **SAM file** for a specific strand alignment (either top or bottom strand) 
 - **Strand alignment** (specify 'BS' (bottom strand) or 'TS' (top strand))
-- **Reference** sequence of the opposite strand. Reference must be provided in the 5' --> 3' orientation
+- **Reference** sequence of the opposite strand.
 
 
 ## REQUIREMENTS
