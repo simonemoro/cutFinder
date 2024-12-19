@@ -7,11 +7,11 @@ This program is used to quantify single-strand breaks detected by GLOE-Seq (DOI:
 cutFinder.py [-h] [-S SAMFILE] [-a ALIGNMENT] [-r REFERENCE] [-n NAME]
 
 options:
-  -h, --help                  show this help message and exit
-  -S SAMFILE, --samFile       SAM file name and location
-  -a ALIGNMENT, --alignment   Strand alignment. Specify 'BS' (bottom strand) or 'TS' (top strand)
-  -r REFERENCE, --reference   Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand
-  -n NAME, --name             CSV file output name (default: Sample_1)
+  -h, --help            show this help message and exit
+  -S, --samFile         SAM file name and location
+  -a, --alignment       Strand alignment. Specify 'BS' (bottom strand) or 'TS' (top strand)
+  -r, --reference       Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand
+  -n, --name            CSV file output name (default: Sample_1)
 
 ```
 
