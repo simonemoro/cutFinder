@@ -5,7 +5,7 @@ import pandas as pd
 parser = argparse.ArgumentParser()
 parser.add_argument("-S", "--samFile", type=str, help="SAM file name and location")
 parser.add_argument("-a", "--alignment", type=str, help="Strand alignment. Specify 'BS' (bottom strand) or 'TS' (top strand)")
-parser.add_argument("-r", "--reference", type=str, help="Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand")
+parser.add_argument("-r", "--reference", type=str, help="Text file with reference sequence. If -a BS, provide the top strand. If -a TS, provide the bottom strand. Reference must be provided in the 5' --> 3' orientation")
 parser.add_argument("-n", "--name", type=str, help="CSV file output name (default: Sample_1)")
 args = parser.parse_args()
 
